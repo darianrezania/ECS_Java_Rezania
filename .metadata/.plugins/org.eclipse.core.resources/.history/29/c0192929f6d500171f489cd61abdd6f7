@@ -1,0 +1,13 @@
+
+public class YourInitials
+{
+	public static void main(String[] args)
+	{System.out.println("DDDDDD");
+	 System.out.println("D");
+	 System.out.println("D");
+	 System.out.println("D");
+	 System.out.println("D");
+	 System.out.println("DDDDDD");
+	}
+	
+}

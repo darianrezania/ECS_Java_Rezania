@@ -7,7 +7,7 @@ public class VariablesAndNames
 		double space_in_a_car, carpool_capacity, average_passengers_per_car;
 		
 		cars=100;
-		space_in_a_car=4.0;
+		space_in_a_car=4;
 		drivers = 30;
 		passengers = 90;
 		cars_not_driven = cars - drivers;
@@ -24,9 +24,8 @@ public class VariablesAndNames
 		System.out.println( "We can transport " + carpool_capacity + " people today.");
 		System.out.println( "We have " + passengers + " to carpool today");
 		System.out.println( "We need to put about" + average_passengers_per_car +" in each other. ");
-		System.out.println( "Nothing happened when I just put 4 ");
-		System.out.println( "The car variables states how many cars there are. Carpool capacity states the amount of people together in a car. Cars driven states the # of cars driven. ");
-		System.out.println( "= means it is ask what something is equal to ==? asks a question about what it is equal to. ");
+		
+		
 		
 		
 	}

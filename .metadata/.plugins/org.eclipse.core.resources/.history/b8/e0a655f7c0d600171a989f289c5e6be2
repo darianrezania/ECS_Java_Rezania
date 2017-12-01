@@ -1,0 +1,16 @@
+
+public class UsingVariables
+{
+	public static void main ( String[] args) 
+	{	
+		int variable_1;
+		double varaible_2;
+		String varable_3;
+		
+		variable_1 = ;
+		
+		
+		
+	}
+
+}

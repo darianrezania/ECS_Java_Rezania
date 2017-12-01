@@ -1,0 +1,22 @@
+
+public class YourSchedule 
+{
+	public static void main ( String[] args)
+	{
+		String myMath, myEnglish,myBiology, myECS, Myers, Farrar, Eddingfield, Mauro;
+		myMath= "|Farrar|";
+		myBiology= "|Eddingfield|";
+		myECS= "|Mauro|";
+		myEnglish="|Myers|";
+		Farrar= myMath;
+		Eddingfield=myBiology;
+		Mauro=myECS;
+		Myers=myEnglish;
+		
+		
+		System.out.println("|Per 1|  | " + myBiology+ Farrar );
+		
+		
+	}
+
+}

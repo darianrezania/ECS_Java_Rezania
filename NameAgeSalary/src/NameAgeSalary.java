@@ -20,6 +20,7 @@ public class NameAgeSalary
 		System.out.println("Wow," + salary + " is a lot for your age" );
 		age = keyboard.nextInt();
 		
+	
 	}
 
 }

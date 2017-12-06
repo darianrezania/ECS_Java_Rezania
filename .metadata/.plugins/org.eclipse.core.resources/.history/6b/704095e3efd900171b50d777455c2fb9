@@ -1,0 +1,17 @@
+import java.util.Scanner;
+
+public class SpaceBoxing
+{	
+	public static void main ( String[] args)
+	{
+		Scanner keyboard = new Scanner(System.in);
+		int Venus, Mars, Jupiter, Saturn, Uranus, Neptune;
+		double weight;
+	System.out.println("Please enter your current weight:");
+	weight = keyboard.nextDouble();
+	
+	
+	}
+}
+
+

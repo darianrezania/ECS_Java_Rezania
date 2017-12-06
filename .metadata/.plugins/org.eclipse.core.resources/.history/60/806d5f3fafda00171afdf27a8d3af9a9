@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+public class SpaceBoxing
+{	
+	public static void main ( String[] args)
+	{
+		Scanner keyboard = new Scanner(System.in);
+		double planet1, planet2,planet3, planet4,planet5,planet6;
+		double weight,Earth;
+		
+		System.out.println("Please enter your current weight:");
+		weight = keyboard.nextDouble();
+		System.out.println("Information for the other planets:");
+		System.out.println("Which planet are you visiting?");
+		planet1= keyboard.nextDouble();
+		
+	
+	}
+}
+
+

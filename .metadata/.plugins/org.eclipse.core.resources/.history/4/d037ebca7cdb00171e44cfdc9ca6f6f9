@@ -1,0 +1,63 @@
+import java.util.Random;
+import java.util.Scanner;
+
+public class HiLow
+{
+	public static void main ( String[] args )
+	{
+		Scanner keyboard = new Scanner(System.in);
+		Random r = new Random();
+		
+		int choice = 1 + r.nextInt(100);
+		
+		String response = "";
+		
+		System.out.println("I'm thinking of a number from 1 to 100. Try to guess it.");
+		choice = keyboard.nextInt();
+		if ( choice == 1 )
+			response = "Correct";
+		else if ( choice == 2 )
+			response = "Correct";
+		else if ( choice == 3 )
+			response = "Correct";
+		else if ( choice == 4 )
+			response = "Correct";
+		else if ( choice == 5 )
+			response = "Correct";
+		else if ( choice == 6 )
+			response = "Correct";
+		else if ( choice == 7 )
+			response = "Correct";
+		else if ( choice == 8 )
+			response = "Outlook good";
+		else if ( choice == 9 )
+			response = "Signs point to yes";
+		else if ( choice == 10 )
+			response = "Yes";
+		else if ( choice == 11 )
+			response = "Reply hazy, try again";
+		else if ( choice == 12 )
+			response = "Ask again later";
+		else if ( choice == 13 )
+			response = "Better not tell you now";
+		else if ( choice == 14 )
+			response = "Cannot predict now";
+		else if ( choice == 15 )
+			response = "Concentrate and ask again";
+		else 
+			response = "8-BALL ERROR!";
+		 if ( choice == 16 )
+			response="Very doubtful";
+		else if (choice == 17)
+			response= "Very Likely";
+		else if (choice == 18)
+			response= "It is possible";
+		else if (choice == 19)
+			response= "Never";
+		else if (choice == 20)
+			response= "Yes";
+	
+		
+		
+	}
+}

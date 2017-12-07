@@ -30,7 +30,7 @@ public class ALittleQuiz
         System.out.println();
         if (answer2 == 2) {
             System.out.println("That is correct.");
-            score++;
+            
         } 
         else 
         	{

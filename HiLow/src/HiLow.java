@@ -28,7 +28,7 @@ public class HiLow
 		{
 			System.out.println("It is to high.");
 		}
-		System.out.println("The actual number was " + randomNum );
+		System.out.println("The actual number was " + randomNum + "." );
 		
 	}
 }

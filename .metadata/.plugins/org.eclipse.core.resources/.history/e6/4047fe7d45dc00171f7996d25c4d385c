@@ -1,0 +1,28 @@
+import java.util.Random;
+import java.util.Scanner;
+
+
+public class KeepGuessing 
+{
+	public static void main ( String[] args)
+	{
+		Scanner keyboard = new Scanner(System.in);
+		Random r = new Random();
+		
+		int randomNum = 1+r.nextInt(10);
+		int guess;
+		System.out.println("I have choosen a number between 1 and 10 guess it.");
+		randomNum = keyboard.nextInt();
+		
+		while ( guess!=randomNum)
+		{
+			System.out.println("\nIncorrect pin try again.");
+			System.out.println("Enter your Pin:");
+			guess = keyboard.nextInt();
+			
+			
+		}
+		System.out.println("\n Guess was correct.");
+	}
+
+}

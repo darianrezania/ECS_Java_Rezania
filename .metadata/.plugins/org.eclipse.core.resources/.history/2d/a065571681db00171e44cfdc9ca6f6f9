@@ -1,0 +1,22 @@
+import java.util.Random;
+
+
+public class DiceJava
+{
+	public static void main ( String[] args )
+	{
+		
+		Random r = new Random();
+		
+		int randomNum = r.nextInt(6);
+		int randomNum2= r.nextInt(6);
+		String response = "";
+		
+		System.out.println("Here comes the dice");
+		
+		System.out.println("Roll #1 " + randomNum);
+		System.out.println("Roll #2 " + randomNum);
+		System.out.println("The total is"+ (randomNum + randomNum2));
+	}
+
+}		

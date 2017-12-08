@@ -20,15 +20,15 @@ public class HiLow
 			System.out.println("It is just right.");
 		}
 		
-		else if(randomNum < choice)
+		else if(randomNum > choice)
 		{
 			System.out.println("It is to low.");
 		}
-		else if(randomNum> choice)
+		else if(randomNum< choice)
 		{
 			System.out.println("It is to high.");
 		}
-		
+		System.out.println("The actual number was " + randomNum );
 		
 	}
 }

@@ -1,0 +1,41 @@
+import java.util.Random;
+import java.util.Scanner;
+
+public class HiLowLimited
+{
+	public static void main ( String[] args )
+	{
+		Scanner keyboard = new Scanner(System.in);
+		Random r = new Random();
+		int tries=0;
+		int randomNum = 1 + r.nextInt(100);
+		
+		String response = "";
+		
+		System.out.println("I'm thinking of a number from 1 to 100. Try to guess it.");
+		int choice = keyboard.nextInt();
+		
+		
+		
+		while(randomNum > choice  && tries < 7)
+		{
+			
+				System.out.println("It is to low, guess again.");
+				randomNum = keyboard.nextInt();
+				tries++;
+		}
+		while(randomNum< choice && tries < 7)
+		{
+			System.out.println("It is to high, guess again.");
+			randomNum = keyboard.nextInt();
+			tries++;
+		}
+		if(randomNum == choice)
+		{
+			System.out.println("It is just right.");
+		}
+		System.out.println("The actual number was " + randomNum + "." );
+		
+		
+	}
+}

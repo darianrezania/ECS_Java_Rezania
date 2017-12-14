@@ -1,0 +1,18 @@
+import java.util.Scanner;
+
+public class CountingMachineRevisited
+{
+	public static void main (String [] args)
+	{
+		Scanner keyboard = new Scanner (System.in);
+		 System.out.print( "Count to: " );
+         int m = keyboard.nextInt();
+         
+         for ( int n = 1; n <= m; n = n+1 ) {
+             System.out.print( n + "\t" );
+         }
+        
+		System.out.println();
+	}
+
+}

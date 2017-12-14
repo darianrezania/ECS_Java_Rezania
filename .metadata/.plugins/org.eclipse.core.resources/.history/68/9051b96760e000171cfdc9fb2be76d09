@@ -1,0 +1,23 @@
+import java.util.Scanner;
+
+public class addingvaluesloop
+{
+	public static void main (String [] args)
+	{
+		Scanner keyboard = new Scanner (System.in);
+		 System.out.print( "Count to: " );
+
+         
+         for ( int n = 1; n <101; n++ ) 
+         {
+     		
+  
+    			
+    
+    		}
+	}
+        
+	
+	
+
+}

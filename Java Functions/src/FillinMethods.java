@@ -10,7 +10,7 @@ public class FillinMethods
 
 		System.out.println();
 		System.out.println("I'm going to get a random character from A-Z");
-		char c = 'C';
+		char c = 'Y';
 		System.out.println("The character is: " + c );
 
 		System.out.println();
@@ -19,7 +19,7 @@ public class FillinMethods
 		begin = -10;
 		 for ( int n = -10; n <= 10; n++ ) 
          {
-             System.out.println( n + "" );
+             System.out.print( n + "" );
              end = 10;
          }
 		
